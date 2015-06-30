@@ -1,4 +1,5 @@
-<form method="PUSH" action="input_newuser.php">
+<html>
+<form method="GET" action="input_process.php">
 Your name:<br>
 	<input type="text" name="user"><br><br>
 Your classes:<br>
