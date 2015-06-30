@@ -2,7 +2,14 @@
 <form method="GET" action="input_process.php">
 Your name:<br>
 	<input type="text" name="user"><br><br>
-Your classes:<br>
+Your classes:
+	<select name="courses">
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="4">4</option>
+		<option value="4">4</option>
+		<option value="4">4</option>
+	</select><br>
 	<select name="coursename1">
 		<option value=null>None</option>
 		<option value="AA">AA</option>
